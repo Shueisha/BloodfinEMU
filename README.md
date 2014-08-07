@@ -47,3 +47,16 @@ To pull upstream changes:
 	cd ~/workspace/theDeli/
    
 	git pull
+
+To add project into Eclipse:
+
+	1. Delete current MMOCoreORB from Eclipse: http://i.imgur.com/EKdICGu.png & http://i.imgur.com/J0LM4xe.png
+
+	2. Import new MMOCoreORB: 
+		> http://i.imgur.com/wp4HObk.png
+		> http://i.imgur.com/zCNrpSj.png
+		> http://i.imgur.com/4NDyXto.png
+		> http://i.imgur.com/9Aa8fzd.png
+		> http://i.imgur.com/LkEMzE8.png
+	
+	3. Done
