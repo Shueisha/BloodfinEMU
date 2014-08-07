@@ -1,0 +1,36 @@
+rebel_marine = Creature:new {
+	objectName = "@mob/creature_names:rebel_marine",
+	socialGroup = "rebel",
+	pvpFaction = "rebel",
+	faction = "rebel",
+	level = 275,
+	chanceHit = 475,
+	damageMin = 170,
+	damageMax = 250,
+	baseXp = 11859,
+	baseHAM = 75000,
+	baseHAMmax = 76000,
+	armor = 1,
+	resists = {35,35,-1,60,60,15,15,60,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE + OVERT,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = NONE,
+
+	templates = {"object/mobile/space_rebel_tier2_eker.iff"},
+	lootGroups = {},
+	weapons = {"boba_fett_weapons"},
+	conversationTemplate = "",
+	attacks = merge(tkamaster,pistoleermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rebel_marine, "rebel_marine")

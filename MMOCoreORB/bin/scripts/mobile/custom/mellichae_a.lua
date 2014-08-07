@@ -1,0 +1,36 @@
+mellichae_a = Creature:new {
+	objectName = "@mob/creature_names:mellichae",
+	socialGroup = "sith_shadow",
+	pvpFaction = "sith_shadow",
+	faction = "sith_shadow",
+	level = 140,
+	chanceHit = 4.750000,
+	damageMin = 945,
+	damageMax = 1600,
+	baseXp = 13273,
+	baseHAM = 20000,
+	baseHAMmax = 21000,
+	armor = 0,
+	resists = {-1,-1,80,80,80,80,80,80,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0.000000,
+	ferocity = 0,
+	pvpBitmask = NONE,
+	creatureBitmask = KILLER,
+	optionsBitmask = 264,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_fs_village_enemy_mellichae.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen2"},
+	conversationTemplate = "force_sensitive_mel_conv",
+	attacks = {}
+}
+
+CreatureTemplates:addCreatureTemplate(mellichae_a, "mellichae_a")

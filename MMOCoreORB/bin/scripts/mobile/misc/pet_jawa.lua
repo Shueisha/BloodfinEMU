@@ -1,0 +1,37 @@
+pet_jawa = Creature:new {
+	objectName = "",
+	customName = "Pet Jawa",	
+	socialGroup = "imperial",
+	pvpFaction = "imperial",
+	faction = "imperial",	
+	level = 224,
+	chanceHit = 0.24,
+	damageMin = 340,
+	damageMax = 345,
+	baseXp = 62,
+	baseHAM = 44113,
+	baseHAMmax = 44138,
+	armor = 0,
+	resists = {0,0,0,0,0,0,0,-1,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = NONE,
+	creatureBitmask = NONE,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/jawa_male.iff"},
+	lootGroups = {},
+	weapons = {"boba_fett_weapons"},
+	conversationTemplate = "",
+	attacks = merge(tkamaster,pistoleermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(pet_jawa, "pet_jawa")
