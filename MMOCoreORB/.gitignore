@@ -7,13 +7,11 @@ bin/luacov.stats.out
 Makefile.in
 aclocal.m4
 bin/conf/rev.txt
-build/*
 src/Makefile.in
 src/client/Makefile.in
 src/client/aclocal.m4
 src/client/config.h.in
 src/client/configure
-src/client/build/*
 INSTALL
 .settings/*
 
