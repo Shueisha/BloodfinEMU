@@ -1,5 +1,6 @@
 core3
 core3client
-databases/*
+databases/*.*
 conf/*
 screenlog.*
+scripts/managers/resource_manager.lua
