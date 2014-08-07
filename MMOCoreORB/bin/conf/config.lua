@@ -55,7 +55,7 @@ DBPort = 3306
 DBName = "swgemu"
 DBUser = "swgemu"
 DBPass = "123456"
-DBSecret = "lala123" -- Change this! This value should be unique and of reasonable length.
+DBSecret = "swgemus3cr37!" -- Change this! This value should be unique and of reasonable length.
 
 LoginPort = 44453
 LoginProcessingThreads = 1
@@ -79,7 +79,7 @@ PingAllowedConnections = 3000
 ZoneProcessingThreads = 10
 ZoneAllowedConnections = 30000
 ZoneGalaxyID = 2 --The actual zone server's galaxyID. Should coordinate with your login server.
-ZoneOnlineCharactersPerAccount = 8 --How many characters are allowed online from a single account.
+ZoneOnlineCharactersPerAccount = 2 --How many characters are allowed online from a single account.
 
 --The following zones are enabled, and will be loaded with server start.
 --To save on RAM and CPU usage, you should only enable the zones you need.
@@ -90,24 +90,24 @@ ZonesEnabled = {
 	--"11",
 	--"character_farm",
 	--"cinco_city_test_m5",
-	"corellia",
+	--"corellia",
 	--"creature_test",
-	"dantooine",
-	"dathomir",
-	"dungeon1",
-	"endor",
+	--"dantooine",
+	--"dathomir",
+	--"dungeon1",
+	--"endor",
 	--"endor_asommers",
 	--"floratest",
 	--"godclient_test",
-	"lok",
-	"naboo",
+	--"lok",
+	--"naboo",
 	--"otoh_gunga",
 	--"rivertest",
-	"rori",
+	--"rori",
 	--"runtimerules",
 	--"simple",
 	--"space_09",
-	"space_corellia",
+	--"space_corellia",
 	--"space_corellia_2",
 	--"space_dantooine",
 	--"space_dathomir",
@@ -119,32 +119,27 @@ ZonesEnabled = {
 	--"space_lok",
 	--"space_naboo",
 	--"space_naboo_2",
-	"space_tatooine",
+	--"space_tatooine",
 	--"space_tatooine_2",
 	--"space_yavin4",
 	--"taanab",
-	"talus",
+	--"talus",
 	"tatooine",
 	--"test_wearables",
 	"tutorial",
 	--"umbra",
 	--"watertabletest",
-	"kaas",
-	"yavin4"
+	--"yavin4"
 }
 
 
 -- directory of tres with live.cfg
-TrePath = "/home/swgemu/workspace/tre"
+TrePath = "/mnt/hgfs/shared/"
 
 TreFiles = {
 	"default_patch.tre",
-	"patch_bloodfin_01.tre",	
-	"pat_assist.tre",
-	"bloodfin_post14.tre",	
 	"patch_sku1_14_00.tre",
 	"patch_14_00.tre",
-	"bloodfin_pre14.tre",	
 	"patch_sku1_13_00.tre",
 	"patch_13_00.tre",
 	"patch_sku1_12_00.tre",

@@ -229,6 +229,12 @@ public:
 				args.getStringToken(objID);
 				uint64 oid = UnsignedLong::valueOf(objID);
 
+				if(server->getZoneServer()->getObject(oid) == NULL)
+				{
+					creature->sendSystemMessage("Object couldn't be found, are you sure you entered the correct object ID?");
+					return INVALIDPARAMETERS;
+				}
+
 				ManagedReference<TangibleObject*> object = server->getZoneServer()->getObject(oid).castTo<TangibleObject*>();
 				creature->sendSystemMessage("Found: " + String::valueOf(object->getObjectName()) + " with object id: " + String::valueOf(object->getObjectID()));
 				creature->sendSystemMessage("Template: " + object->getObjectTemplate()->getTemplateFileName());
