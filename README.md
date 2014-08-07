@@ -15,9 +15,13 @@ Step 1: Add your SSH key to your git account
 Step 2: Clone and set up the repository
 	1. Open terminal and enter the following commands:
 			cd ~/workspace/
+
 			git clone git@github.com:mechsouls/theDeli.git
+			
 			rm MMOCoreORB
+			
 			ln -s theDeli/MMOCoreORB/ MMOCoreORB
+			
 			ln -s MMOEngine/ theDeli/MMOEngine
 	
 Step 3: You're done.
