@@ -7,6 +7,7 @@ Where things get flashed, and Christmas never comes again.
 Guide: If you need help, please contact Seefo
 
 Step 1: Add your SSH key to your git account
+
 	1. Enable the ability to view hidden files and folders: http://i.imgur.com/wQzZHA6.png
 	
 	2. Navigate to the '.ssh' folder in your home directory: http://i.imgur.com/WvsQw1f.png
