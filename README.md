@@ -33,6 +33,7 @@ Step 2: Clone and set up the repository
 Step 3: You're done.
 
 To commit: 
+
 	cd ~/workspace/theDeli/
   
 	git add *
