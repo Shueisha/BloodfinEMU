@@ -44,11 +44,12 @@
 Saber2hFrenzyCommand = {
         name = "saber2hfrenzy",
         
-    damageMultiplier = 3.5,
+    damageMultiplier = 4.5,
 	speedMultiplier = 2.0,
 	areaAction = true,
 	areaRange = 7,
-	forceCostMultiplier = 15,
+	forceCostMultiplier = 25,
+	accuracyBonus = 25,
 
 		stateEffects = {
 	   StateEffect( 
