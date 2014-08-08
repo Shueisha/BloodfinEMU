@@ -5,8 +5,8 @@ alert_droideka = Creature:new {
 	faction = "",
 	level = 350,
 	chanceHit = 35.56,
-	damageMin = 826,
-	damageMax = 1464,
+	damageMin = 726,
+	damageMax = 1264,
 	baseXp = 22650,
 	baseHAM = 53183,
 	baseHAMmax = 65124,
@@ -33,14 +33,14 @@ alert_droideka = Creature:new {
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 1500000,
+			lootChance = 5500000,
 		},
 		{
 	        	groups = 
 			{
 				{group = "geo_crafting_jewelry_modified", chance = 10000000},
 			},
-			lootChance = 1500000,
+			lootChance = 2500000,
 		},
 	 	{
 	        	groups = 
@@ -50,7 +50,7 @@ alert_droideka = Creature:new {
 				{group = "geonosian_common", chance = 5000000},
 				{group = "mastery_geocave_jewelry", chance = 1500000},
 			},
-			lootChance = 5000000,
+			lootChance = 7000000,
 		},
 	},
 	defaultAttack = "creaturerangedattack",

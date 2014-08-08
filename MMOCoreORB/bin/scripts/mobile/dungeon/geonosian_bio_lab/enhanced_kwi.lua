@@ -5,8 +5,8 @@ enhanced_kwi = Creature:new {
 	faction = "",
 	level = 355,
 	chanceHit = 47.5,
-	damageMin = 790,
-	damageMax = 1190,
+	damageMin = 690,
+	damageMax = 990,
 	baseXp = 10081,
 	baseHAM = 40000,
 	baseHAMmax = 51000,
@@ -34,7 +34,7 @@ enhanced_kwi = Creature:new {
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 1500000,
+			lootChance = 4500000,
 		},
 		{
 	        	groups = 

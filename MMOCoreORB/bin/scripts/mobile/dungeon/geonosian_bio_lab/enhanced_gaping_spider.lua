@@ -4,7 +4,7 @@ enhanced_gaping_spider = Creature:new {
 	socialGroup = "geonosian_creature",
 	pvpFaction = "",
 	faction = "",
-	level = 115,
+	level = 715,
 	chanceHit = 75.5,
 	damageMin = 2515,
 	damageMax = 2940,
@@ -35,7 +35,21 @@ enhanced_gaping_spider = Creature:new {
 			{
 				{group = "geo_crafting_jewelry_modified", chance = 5000000},
 			},
-			lootChance = 3500000,
+			lootChance = 4500000,
+		},
+		{
+	        	groups = 
+			{
+				{group = "armor_attachments", chance = 10000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+	        	groups = 
+			{
+				{group = "armor_attachments", chance = 10000000},
+			},
+			lootChance = 7500000,
 		},
 		{
 			groups = 
@@ -48,9 +62,8 @@ enhanced_gaping_spider = Creature:new {
 		{
 	        	groups = 
 			{
-				{group = "armor_attachments", chance = 3500000},
 				{group = "geonosian_relic", chance = 5500000},
-				{group = "mastery_geocave_jewelry", chance = 1000000},
+				{group = "mastery_geocave_jewelry", chance = 4500000},
 			},
 			lootChance = 6500000,
 		},	

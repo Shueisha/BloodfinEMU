@@ -34,21 +34,21 @@ failed_ns_clone = Creature:new {
 			{
 				{group = "geo_crafting_jewelry_modified", chance = 10000000},
 			},
-			lootChance = 3500000,
+			lootChance = 4500000,
 		},
 		{
 	        	groups = 
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 5500000,
+			lootChance = 7500000,
 		},
 		{
 	        	groups = 
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 5500000,
+			lootChance = 7500000,
 		},
 		{
 			groups = {
@@ -64,7 +64,7 @@ failed_ns_clone = Creature:new {
 			{
 				{group = "mastery_geocave_jewelry", chance = 10000000},
 			},
-			lootChance = 3500000,
+			lootChance = 4500000,
 		},
 		{
 			groups = 
@@ -72,7 +72,7 @@ failed_ns_clone = Creature:new {
 				{group = "geonosian_epic", chance = 2500000},
 				{group = "enhanced_melee_geo_weapons", chance = 7500000},
 			},
-			lootChance = 2500000,
+			lootChance = 3500000,
 		},
 	},
 	weapons = {"dark_trooper_weapons"},

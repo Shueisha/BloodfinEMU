@@ -6,11 +6,11 @@ enhanced_rancor = Creature:new {
 	faction = "",
 	level = 600,
 	chanceHit = 45.5,
-	damageMin = 4000,
-	damageMax = 4800,
+	damageMin = 3800,
+	damageMax = 4200,
 	baseXp = 79336,
-	baseHAM = 950000,
-	baseHAMmax = 1000000,
+	baseHAM = 750000,
+	baseHAMmax = 800000,
 	armor = 3,
 	resists = {55,60,45,70,70,70,45,45,35},
 	meatType = "meat_carnivore",
@@ -47,10 +47,24 @@ enhanced_rancor = Creature:new {
 		{
 	        	groups = 
 			{
+				{group = "armor_attachments", chance = 10000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+	        	groups = 
+			{
+				{group = "armor_attachments", chance = 10000000},
+			},
+			lootChance = 7500000,
+		},
+		{
+	        	groups = 
+			{
 				{group = "geonosian_relic", chance = 6500000},
 				{group = "mastery_geocave_jewelry", chance = 3500000},
 			},
-			lootChance = 6500000,
+			lootChance = 7500000,
 		},
 		{
 			groups = 
@@ -60,7 +74,7 @@ enhanced_rancor = Creature:new {
 				{group = "enhanced_melee_geo_weapons", chance = 3000000},
 				{group = "enhanced_ranged_geo_weapons", chance = 3000000},
 			},
-			lootChance = 6000000,
+			lootChance = 7000000,
 		},
 		{
 			groups = {

@@ -5,8 +5,8 @@ enhanced_kliknik = Creature:new {
 	faction = "",
 	level = 350,
 	chanceHit = 29.0,
-	damageMin = 675,
-	damageMax = 1060,
+	damageMin = 575,
+	damageMax = 960,
 	baseXp = 10360,
 	baseHAM = 32000,
 	baseHAMmax = 57000,
@@ -34,7 +34,7 @@ enhanced_kliknik = Creature:new {
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 1500000,
+			lootChance = 4500000,
 		},
 		{
 	        	groups = 

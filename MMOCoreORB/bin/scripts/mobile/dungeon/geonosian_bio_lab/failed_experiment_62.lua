@@ -6,8 +6,8 @@ failed_experiment_62 = Creature:new {
 	faction = "",
 	level = 400,
 	chanceHit = 35.5,
-	damageMin = 3035,
-	damageMax = 3580,
+	damageMin = 2535,
+	damageMax = 3280,
 	baseXp = 49884,
 	baseHAM = 551600,
 	baseHAMmax = 648000,
@@ -42,7 +42,14 @@ failed_experiment_62 = Creature:new {
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 5000000,
+			lootChance = 7500000,
+		},
+		{
+	        	groups = 
+			{
+				{group = "armor_attachments", chance = 10000000},
+			},
+			lootChance = 7500000,
 		},
 		{
 	        	groups = 
@@ -57,14 +64,14 @@ failed_experiment_62 = Creature:new {
 				{group = "geonosian_epic", chance = 2500000},
 				{group = "enhanced_ranged_geo_weapons", chance = 7500000},
 			},
-			lootChance = 1500000,
+			lootChance = 3500000,
 		},
 		{
 			groups = 
 			{
 				{group = "acklay", chance = 10000000},
 			},
-			lootChance = 2500000,
+			lootChance = 1500000,
 		},
 	},
 	weapons = {},

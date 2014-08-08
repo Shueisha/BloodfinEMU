@@ -6,8 +6,8 @@ enhanced_cavern_spider = Creature:new {
 	faction = "",
 	level = 350,
 	chanceHit = 33.36,
-	damageMin = 750,
-	damageMax = 960,
+	damageMin = 550,
+	damageMax = 860,
 	baseXp = 17822,
 	baseHAM = 39700,
 	baseHAMmax = 49400,
@@ -35,7 +35,7 @@ enhanced_cavern_spider = Creature:new {
 			{
 				{group = "armor_attachments", chance = 10000000},
 			},
-			lootChance = 1500000,
+			lootChance = 4500000,
 		},
 		{
 	        	groups = 

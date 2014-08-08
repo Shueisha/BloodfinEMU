@@ -6,13 +6,13 @@ enhanced_force_jawa_lord = Creature:new {
 	faction = "",
 	level = 1200,
 	chanceHit = 300,
-	damageMin = 4645,
-	damageMax = 6000,
+	damageMin = 3745,
+	damageMax = 4000,
 	baseXp = 9296845,
 	baseHAM = 2306000,
 	baseHAMmax = 2652000,
 	armor = 3,
-	resists = {85,85,85,85,85,85,85,85,65},
+	resists = {65,65,65,65,65,65,65,65,45},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -35,14 +35,14 @@ enhanced_force_jawa_lord = Creature:new {
 			{
 				{group = "geo_crafting_jewelry_modified", chance = 10000000},
 			},
-			lootChance = 5000000,
+			lootChance = 7500000,
 		},
 		{
 	        	groups = 
 			{
 				{group = "geo_jawa_cache", chance = 10000000},
 			},
-			lootChance = 5000000,
+			lootChance = 6500000,
 		},
 		
 		{
@@ -70,7 +70,7 @@ enhanced_force_jawa_lord = Creature:new {
 			groups = {
 				{group = "geonosian_epic", chance = 10000000},
 			},
-			lootChance = 7500000,
+			lootChance = 8500000,
 		},
 		{
 			groups = 
@@ -80,7 +80,7 @@ enhanced_force_jawa_lord = Creature:new {
 				{group = "enhanced_melee_geo_weapons", chance = 3000000},
 				{group = "enhanced_ranged_geo_weapons", chance = 3000000},
 			},
-			lootChance = 7500000,
+			lootChance = 8500000,
 		},
 		{
 	        	groups = 
@@ -88,21 +88,21 @@ enhanced_force_jawa_lord = Creature:new {
 				{group = "jedi_geocave_jewelry", chance = 7500000},
 				{group = "mastery_geocave_jewelry", chance = 2500000},
 			},
-			lootChance = 7500000,
+			lootChance = 8500000,
 		},
 		{
 			groups = 
 			{
 				{group = "crystals_premium", chance = 10000000},
 			},
-			lootChance = 7500000,
+			lootChance = 8500000,
 		},
 		{
 			groups = 
 			{
 				{group = "crystals_premium", chance = 10000000},
 			},
-			lootChance = 7500000,
+			lootChance = 8500000,
 		},				
 	},
 	weapons = {"light_jedi_weapons"},
