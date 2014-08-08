@@ -48,7 +48,7 @@ Saber2hFrenzyCommand = {
 	speedMultiplier = 2.0,
 	areaAction = true,
 	areaRange = 7,
-	forceCostMultiplier = 25,
+	forceCostMultiplier = 2.5,
 	accuracyBonus = 25,
 
 		stateEffects = {
