@@ -81,6 +81,13 @@ void ResourceLabratory::setInitialCraftingValues(TangibleObject* prototype, Manu
 		// > 0 ensures that we don't add things when there is NaN value
 		if (weightedSum > 0) {
 
+			// Seefo crafting bonus
+			if(assemblySuccess == 9)
+			{
+				weightedSum = 1000.0f;
+				modifier = 1.05f;
+			}
+
 			// This is the formula for max experimenting percentages
 			maxPercentage = ((weightedSum / 10.0f) * .01f);
 

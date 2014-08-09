@@ -75,6 +75,8 @@ void CraftingManagerImplementation::sendResourceWeightsTo(CreatureObject* player
 int CraftingManagerImplementation::calculateAssemblySuccess(CreatureObject* player,
 		DraftSchematic* draftSchematic, float effectiveness) {
 
+	if(player->getSkillMod("seefo_crafting_bonus") > 0) return 9;
+
 	// assemblyPoints is 0-12
 	/// City bonus should be 10
 	float cityBonus = player->getSkillMod("private_spec_assembly");

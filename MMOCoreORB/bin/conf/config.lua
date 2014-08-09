@@ -92,22 +92,22 @@ ZonesEnabled = {
 	--"cinco_city_test_m5",
 	"corellia",
 	--"creature_test",
-	"dantooine",
-	"dathomir",
-	"dungeon1",
-	"endor",
+	--"dantooine",
+	--"dathomir",
+	--"dungeon1",
+	--"endor",
 	--"endor_asommers",
 	--"floratest",
 	--"godclient_test",
-	"lok",
-	"naboo",
+	--"lok",
+	--"naboo",
 	--"otoh_gunga",
 	--"rivertest",
-	"rori",
+	--"rori",
 	--"runtimerules",
 	--"simple",
 	--"space_09",
-	"space_corellia",
+	--"space_corellia",
 	--"space_corellia_2",
 	--"space_dantooine",
 	--"space_dathomir",
@@ -119,23 +119,23 @@ ZonesEnabled = {
 	--"space_lok",
 	--"space_naboo",
 	--"space_naboo_2",
-	"space_tatooine",
+	--"space_tatooine",
 	--"space_tatooine_2",
 	--"space_yavin4",
 	--"taanab",
-	"talus",
-	"tatooine",
+	--"talus",
+	--"tatooine",
 	--"test_wearables",
-	"tutorial",
+	--"tutorial",
 	--"umbra",
 	--"watertabletest",
-	"kaas",
-	"yavin4"
+	--"kaas",
+	--"yavin4"
 }
 
 
 -- directory of tres with live.cfg
-TrePath = "/home/swgemu/workspace/tre"
+TrePath = "/mnt/hgfs/shared/"
 
 TreFiles = {
 	"default_patch.tre",
