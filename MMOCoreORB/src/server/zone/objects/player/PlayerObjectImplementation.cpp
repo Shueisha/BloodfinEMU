@@ -1516,7 +1516,7 @@ void PlayerObjectImplementation::activateForcePowerRegen() {
 
 		float timer = getForcePowerRegen() / 5;
 		float scheduledTime = 10 / timer;
-		uint64 miliTime = scheduledTime * 1000;
+		uint64 miliTime = scheduledTime * 5000;
 		forceRegenerationEvent->schedule(miliTime);
 	}
 }
@@ -1767,14 +1767,14 @@ void PlayerObjectImplementation::doForceRegen() {
 	if (rankMod > 0 && creature->isInCombat())
 		modifier += (rankMod * .1);
 
-	uint32 forceTick = getForcePowerRegen() / 15 * modifier;
+	uint32 forceTick = getForcePowerRegen() / 5 * modifier;
 
 	if (forceTick < 1)
 		forceTick = 1;
 
 	//Skyyyr forceTick
 	if (creature->isInCombat())
-		forceTick *= .05;
+		forceTick *=  0.5;
 
 	if (forceTick > getForcePowerMax() - getForcePower()){   // If the player's Force Power is going to regen again and it's close to max,
 		setForcePower(getForcePowerMax());             // Set it to max, so it doesn't go over max.

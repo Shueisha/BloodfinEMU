@@ -423,7 +423,7 @@ core3_SOURCES =	$(core3_IDLS) \
 		server/zone/objects/tangible/components/WaypointDatapadMenuComponent.cpp \
 		server/zone/objects/tangible/components/ForceShrineMenuComponent.cpp \
 		server/zone/objects/tangible/components/DarkFrsMenuComponent.cpp \
-		server/zone/objects/tangible/components/LightFrsMenuComponent.cpp \		
+		server/zone/objects/tangible/components/LightFrsMenuComponent.cpp \
 		server/zone/objects/tangible/components/CloningTerminalMenuComponent.cpp \
 		server/zone/objects/tangible/components/generic/ArtCrateMenuComponent.cpp \
 		server/zone/objects/tangible/components/ContainerObjectComponent.cpp \
