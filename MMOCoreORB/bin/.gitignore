@@ -3,4 +3,4 @@ core3client
 databases/*.*
 conf/*
 screenlog.*
-scripts/managers/resource_manager.lua
+scripts/managers/resource_manager_spawns.lua
